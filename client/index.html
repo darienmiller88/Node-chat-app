@@ -3,9 +3,54 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./static/css/styles.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <title>Document</title>
     </head>
     <body>
-        
+        <div class = "wrapper">
+            <div class="side-bar">
+                <div class="chat chat-1"> 
+                    <h3>#chat room 1</h3> 
+                </div> 
+                <div class="chat chat-2"> 
+                    <h3>#chat room 2</h3> 
+                </div> 
+                <div class="chat chat-3"> 
+                    <h3>#chat room 3</h3> 
+                </div> 
+            </div>
+
+            <div class="messages-container">
+                <div class="chatbox">
+                    <div class="message">
+                        LMFAOOOO
+                    </div>
+                    <div class="other-message">
+                        I KNOW RIGHT BRO?!!
+                    </div>
+                    <div class="message">
+                        LMFAOOOO
+                    </div>
+                    <div class="other-message">
+                        I KNOW RIGHT BRO?!!
+                    </div>
+                </div>
+
+                <form>
+                    <input type="text" class="form-control" name="send-message" placeholder="Send message" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </form>
+
+                <!-- <div class="input-group mb-3">
+                    Uncomment for a shorter message bar
+                </div> -->
+                <!-- <div class="input-group-append">
+                    <button type="submit" onclick="addMessage()" class="btn btn-primary">Send</button>
+                </div> -->
+                
+            </div>
+        </div>
+       
+        <script src="./static/js/index.js"></script>
     </body>
 </html>

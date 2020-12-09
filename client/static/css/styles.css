@@ -1,0 +1,48 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100vh;
+    width: 100vw;
+}
+
+.side-bar{
+    background-color: blue;
+    color: gray;
+    text-align: left;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.chat:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.messages-container{
+    display: grid;
+    grid-template-columns: auto;  
+    grid-template-rows: auto 40px;
+}
+
+.chatbox{
+    background-color: black;
+    border: 1px solid white;
+    overflow-y: scroll;
+}
+
+.chatbox > div{
+    border-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    width: fit-content;
+    max-width: 50%;
+}
+
+.message{
+    background-color: blue;
+}
+
+.other-message{
+    background-color: gray;
+}
